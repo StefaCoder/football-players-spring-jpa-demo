@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:${CROSS_ORIGIN_URL}")
 @RestController
 @RequestMapping("/api")
 public class PlayerController {
